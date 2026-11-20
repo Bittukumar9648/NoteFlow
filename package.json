@@ -1,0 +1,23 @@
+{
+  "name": "noteflow",
+  "version": "1.0.0",
+  "description": "NoteFlow - Premium Personal Notes Management Application",
+  "scripts": {
+    "server:dev": "npm --prefix server run dev",
+    "server:start": "npm --prefix server run start",
+    "client:dev": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "test:api": "npm --prefix server run test:api"
+  },
+  "keywords": [
+    "notes",
+    "productivity",
+    "tiptap",
+    "react",
+    "express",
+    "prisma",
+    "sqlite"
+  ],
+  "author": "NoteFlow Team",
+  "license": "MIT"
+}
